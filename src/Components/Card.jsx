@@ -15,11 +15,12 @@ const CardStyles = css`
     width: 280px;
     height: auto;
     padding: 20px;
-    box-shadow: 1px 1px 2px 2px gray , -1px -1px 2px 2px gray;
+    box-shadow: 1px 1px 5px 1px #b2b2b2 , -1px -1px 5px 1px #b2b2b2;
 
     img {
         width: 100%;
+        border-radius: 18px;
     }
 `
 
-export default Card
+export default Card;

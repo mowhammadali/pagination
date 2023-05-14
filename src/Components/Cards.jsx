@@ -8,7 +8,7 @@ const Cards = () => {
     const [currentPage , setCurrentPage] = useState(1);
     const [paginateProducts , setPaginateProducts] = useState([]);
 
-    const pageSize = 12;
+    const pageSize = 9;
     const pageCount = Math.ceil(data.length / pageSize);
     const pageNumber = Array.from(Array(pageCount).keys());
 
